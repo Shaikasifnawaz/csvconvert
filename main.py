@@ -56,6 +56,7 @@ except Exception as e:
 chat_history = []
 
 # Function to get embeddings
+# async def get_embedding(content):
 def get_embedding(text, model="text-embedding-3-small"):
     text = text.replace("\n", " ")  
     embedding = client.embeddings.create(input=[text], model=model).data[0].embedding

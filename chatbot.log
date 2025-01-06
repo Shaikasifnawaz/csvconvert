@@ -8,3 +8,126 @@
 2024-12-03 11:18:37,944 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2024-12-03 11:19:59,531 - INFO - Human Question: What services do you offer?
 2024-12-03 11:20:00,412 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-03 11:24:47,237 - ERROR - Error parsing embedding: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+2024-12-03 11:24:47,237 - ERROR - Error parsing embedding: invalid syntax. Perhaps you forgot a comma? (<unknown>, line 1)
+2024-12-03 11:24:47,246 - INFO - Loaded existing embedded documents
+2024-12-03 11:24:47,483 - INFO - Human Question: What services do you offer?
+2024-12-03 11:24:48,192 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-12-03 11:24:49,074 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-04 10:56:19,070 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 10:56:19,086 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:06:06,289 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:07:40,705 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:07:54,275 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:07:54,275 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:07:58,590 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:09:17,127 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:12:22,659 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:12:22,660 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:12:26,042 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:15:07,999 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:15:08,000 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:15:14,137 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:19:50,957 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:19:50,958 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:19:54,143 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:21:44,082 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:21:44,083 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:21:51,036 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:22:09,195 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:27:22,023 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:27:22,024 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:27:26,175 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:30:25,243 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:30:25,244 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:30:29,018 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:31:45,136 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:31:45,138 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:31:47,739 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:32:56,686 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:32:56,687 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:32:56,787 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:33:41,485 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:36:43,479 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:36:43,480 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:36:45,659 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:36:45,659 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate'
+2025-01-04 11:37:55,639 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:37:55,640 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate'
+2025-01-04 11:39:21,353 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:39:21,355 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:39:24,113 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:39:24,114 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embedding'
+2025-01-04 11:40:19,054 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:40:19,054 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embedding'
+2025-01-04 11:42:18,190 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:42:18,191 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:42:21,922 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:42:21,922 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embedding'
+2025-01-04 11:43:55,761 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:43:55,761 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embedding'
+2025-01-04 11:46:08,932 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:46:08,933 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:46:19,946 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:48:50,891 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:52:06,423 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:52:06,424 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:52:10,340 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:56:28,674 - INFO - Model initialized successfully
+2025-01-04 11:56:28,832 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 11:56:28,833 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 11:56:33,573 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:56:33,573 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 11:56:33,575 - ERROR - Error generating chat response: GenerativeModel.generate_content() got an unexpected keyword argument 'prompt'
+2025-01-04 11:58:33,921 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:58:33,921 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 11:58:33,922 - ERROR - Error generating chat response: GenerativeModel.generate_content() got an unexpected keyword argument 'prompt'
+2025-01-04 11:58:58,721 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 11:58:58,721 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 11:58:58,723 - ERROR - Error generating chat response: GenerativeModel.generate_content() got an unexpected keyword argument 'prompt'
+2025-01-04 12:00:17,843 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 12:00:17,843 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:00:17,844 - ERROR - Error generating chat response: GenerativeModel.generate_content() got an unexpected keyword argument 'prompt'
+2025-01-04 12:01:34,465 - INFO - Human Question: Tell me about Vasavi Metropolis
+2025-01-04 12:01:34,466 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:01:34,467 - ERROR - Error generating chat response: GenerativeModel.generate_content() got an unexpected keyword argument 'prompt'
+2025-01-04 12:02:48,650 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:04:38,050 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:06:38,204 - INFO - Model initialized successfully
+2025-01-04 12:06:38,380 - ERROR - Error loading embedded documents: 'ada_embedding'
+2025-01-04 12:06:38,381 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 12:06:52,383 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:07:48,088 - ERROR - Error generating embedding: 'GenerativeModel' object has no attribute 'generate_embeddings'
+2025-01-04 12:10:43,058 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 12:10:43,058 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 12:11:34,897 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 12:11:36,698 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-04 12:11:37,557 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-04 12:23:11,026 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 12:23:11,027 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 12:24:19,316 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 12:26:15,772 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 12:26:43,729 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 12:29:53,955 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 12:35:49,379 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 12:35:49,380 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 12:39:57,590 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 14:26:53,368 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 14:26:53,395 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 14:27:05,567 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 14:27:05,568 - ERROR - Error generating embedding: module 'google.generativeai' has no attribute 'generate_embeddings'
+2025-01-04 14:28:47,850 - INFO - Human Question: What is the email of Vasavi Group?
+2025-01-04 14:28:47,851 - ERROR - Error generating embedding: module 'google.generativeai' has no attribute 'generate_embeddings'
+2025-01-04 14:32:10,587 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-04 14:32:10,588 - INFO - Starting with an empty dataframe due to loading error
+2025-01-04 14:34:21,716 - INFO - Human Question: Show me all the properties of Vasavi Group and list them
+2025-01-04 14:34:22,878 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-04 14:34:23,739 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-04 14:36:16,283 - INFO - Human Question: Show me all the properties of Vasavi Group and list them
+2025-01-04 14:36:17,350 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-04 14:36:18,304 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 11:25:54,873 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-06 11:25:54,881 - INFO - Starting with an empty dataframe due to loading error
+2025-01-06 12:03:14,596 - INFO - Human Question: Hi
+2025-01-06 12:03:18,648 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 12:03:19,838 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

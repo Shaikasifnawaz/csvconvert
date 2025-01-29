@@ -42,7 +42,7 @@ def safe_eval(x):
         return []
 
 try:
-    df = pd.read_csv('BuilderProjects.csv')
+    df = pd.read_csv('csv converter.csv')
     df['ada_embedding'] = df.ada_embedding.apply(safe_eval).apply(np.array)
     logger.info("Loaded existing embedded documents")
 except FileNotFoundError:
@@ -79,7 +79,7 @@ async def upload_text(text_upload: TextUpload):
     global df
     df = pd.concat([df, new_row], ignore_index=True)
     
-    df.to_csv('BuilderProjects.csv', index=False)
+    df.to_csv('csv converter.csv', index=False)
     
     return {"message": "Text uploaded and embedded successfully"}
 

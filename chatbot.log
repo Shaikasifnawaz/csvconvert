@@ -131,3 +131,39 @@
 2025-01-06 12:03:14,596 - INFO - Human Question: Hi
 2025-01-06 12:03:18,648 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2025-01-06 12:03:19,838 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:50:03,469 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-06 13:50:03,519 - INFO - Starting with an empty dataframe due to loading error
+2025-01-06 13:50:43,233 - INFO - Human Question: Hello
+2025-01-06 13:50:44,537 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:50:45,116 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:52:07,529 - INFO - Human Question: Hi
+2025-01-06 13:52:08,209 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:52:08,680 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:53:03,199 - INFO - Human Question: Can I get projects of vasavi
+2025-01-06 13:53:04,170 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:53:05,209 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:53:57,263 - INFO - Human Question: Can I get More info on Vasavi lake city
+2025-01-06 13:53:57,818 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:53:58,283 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:54:30,830 - INFO - Human Question: Do we have any images ??? or socil media links?
+2025-01-06 13:54:32,264 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:54:32,758 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:55:08,029 - INFO - Human Question: Can i get the details of them soo that i can visit and webiste details
+2025-01-06 13:55:09,051 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:55:09,540 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-06 13:56:02,999 - INFO - Human Question: OK thanks
+2025-01-06 13:56:03,602 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-06 13:56:04,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-30 01:53:53,769 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 01:53:53,789 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 01:53:53,789 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 01:54:51,564 - INFO - Human Question: Tell me about luxury apartments
+2025-01-30 01:54:52,901 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-30 01:54:54,988 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-30 01:56:36,005 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 01:56:36,006 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 01:56:39,590 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 01:56:39,591 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 01:57:56,288 - INFO - Human Question: Provide me ingredients and method for egg bhuna masala
+2025-01-30 01:57:57,131 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-01-30 01:57:57,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

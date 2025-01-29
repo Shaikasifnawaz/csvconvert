@@ -167,3 +167,9 @@
 2025-01-30 01:57:56,288 - INFO - Human Question: Provide me ingredients and method for egg bhuna masala
 2025-01-30 01:57:57,131 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2025-01-30 01:57:57,794 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-01-30 01:59:59,005 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 01:59:59,007 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 02:14:04,310 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 02:14:04,311 - INFO - Starting with an empty dataframe due to loading error
+2025-01-30 02:14:08,809 - ERROR - Error loading embedded documents: 'DataFrame' object has no attribute 'ada_embedding'
+2025-01-30 02:14:08,811 - INFO - Starting with an empty dataframe due to loading error
